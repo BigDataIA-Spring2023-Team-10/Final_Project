@@ -5,10 +5,12 @@ import requests
 URL = 'http://bigdata7245-finalproject.ue.r.appspot.com'
 
 #Session State for Login
-if 'login_success' not in st.secrets:
+if 'login_success' not in st.session_state:
     st.session_state['login_success'] = False
-if 'login_token' not in st.secrets:
+if 'login_token' not in st.session_state:
     st.session_state['login_token'] = False
+if 'logged_in_username' not in st.session_state:
+    st.session_state['logged_in_username'] = False
 
 def handleLogin(username, password):
     loginData = {
@@ -45,6 +47,7 @@ def loginPage():
                     print(res['token'])
                     st.session_state['login_success'] = True
                     st.session_state['login_token'] = res['token']
+                    st.session_state['logged_in_username'] = _username
                     st.write('Login successful! ✅')
                 else:
                     st.write(res['res'])
