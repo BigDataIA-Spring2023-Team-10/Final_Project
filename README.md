@@ -14,7 +14,7 @@
 
 # Code Labs Documentation
 
-[Access the codelabs document here]() 🚀
+[Access the codelabs document here](https://codelabs-preview.appspot.com/?file_id=1527BIJDrvCVDCDX2OYgTlA1reW1iXBZcRcyp0hcj4Dw#5) 🚀
 
 
 
@@ -152,7 +152,70 @@ zipp==3.15.0
 └─ requirements.txt  <-- requirements.txt
 ```
 
-#Accessing BAckened Code: 
+# Steps to be followed for Accessing the codebase:
+
+
+```
+1. Clone this repo locally `git clone <repo-url>`
+
+2. Setup the local python enviornment.
+
+3. Install all the dependencies from the requirements.txt file
+`pip install -r requirements.txt`
+
+4. Install all local dependencies 
+`pip install -e .`
+
+5. Create `.env` file.
+
+The Following Details in env file needed to be updated to Configure to streamlit and GCP
+
+
+host = "" <-- DB HostName 
+user = "" <-- DB Username
+password = "" <-- DB password
+db = "" <-- DB password
+bucket_name = "" <-- Aws Bucket Name
+open_api_key="" <-- Open API Key
+Embedding_Model = "text-embedding-ada-002"
+pinecone_api_key ="" <-- pinecone API key
+pinecone_environment="us-central1-gcp" <--pinecone region
+
+
+[gcp_service_account]
+type= ""
+project_id= ""
+private_key_id= ""
+private_key= ""
+client_email=""
+client_id= ""
+auth_uri= ""
+token_uri= ""
+auth_provider_x509_cert_url= ""
+client_x509_cert_url= ""
+
+This Credentials can be obtained after successfully creating GCP account and post creation of project
+
+In order to obtain pinecone credentials one can use below steps
+
+Sign up for a Pinecone account: If you haven't already, go to the Pinecone website and sign up for a free account.
+
+Create an API key: Once you have logged into your Pinecone account, go to the "API Keys" section of the dashboard and click "Create API Key".
+
+Name your API key: Give your API key a name that is easy to remember and helps you identify its purpose.
+
+Copy your API key: Once you have created your API key, copy it to your clipboard or save it in a secure location.
+
+```
+
+
+
+
+
+
+
+
+
 
 
 
