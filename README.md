@@ -22,7 +22,7 @@
 
 # Application Link
 
-[Access the Application link here]() 🚀
+[Access the Application link here](https://bigdataia-spring2023-team-10-final-project-streamlithome-06a1yk.streamlit.app/) 🚀
 
 
 [FastApi Documentation](http://bigdata7245-finalproject.ue.r.appspot.com/docs) 🚀
