@@ -143,7 +143,7 @@ def query_gpt(query, prompt, username):
     if eligible_status:
         return chat_gpt(query, prompt)
     else:
-        return {"limit":"exceeded"}
+        return False
 
 def handleQuery(_query):
 
@@ -155,9 +155,11 @@ def handleQuery(_query):
     if res.status_code == 200:
         restaurant_id = res.json()
         pinecone_res = query_pinecone(_query, restaurant_id, st.session_state['logged_in_username'])
-        print(pinecone_res)
-        for res in pinecone_res:
-            st.write(res)
+        if pinecone_res:
+            for res in pinecone_res:
+                st.write(res)
+        else:
+            st.write("Limit exceeded for 1 hour")
 
     else: 
         print(res.status_code, res.json())
@@ -184,9 +186,12 @@ def analyseReviewsPage():
         _gpt_submit = st.form_submit_button('Submit')
 
         if _gpt_submit:
-            _gpt_res = chat_gpt(_gpt_query, _gpt_prompt)
+            _gpt_res = query_gpt(_gpt_query, _gpt_prompt, st.session_state['logged_in_username'])
 
-            st.write(_gpt_res)
+            if _gpt_res:
+                st.write(_gpt_res)
+            else:
+                st.write("Limit exceeded for 1 hour!")
 
 
 if __name__ == "__main__":
