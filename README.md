@@ -28,10 +28,6 @@
 [FastApi Documentation](http://bigdata7245-finalproject.ue.r.appspot.com/docs) 🚀
 
 
-# Vidoe Link
-
-[Video Link](https://drive.google.com/file/d/1StfPrUxc7K9zh2GHFB28IJRHHt5zxwGI/view?usp=sharing) 🚀
-
 # Overview 📝
 
 The main problem faced by restaurent owner is to get a feeback from the customer using his services and  provide restaurant owners with insights into their business by analyzing the reviews they receive on social sites or any other Internet platform. Yelp is a popular platform where customers can leave reviews and ratings for businesses, including restaurants. However, analyzing these reviews manually can be time-consuming and may not provide the insights that restaurant owners need to improve their business.
@@ -210,7 +206,28 @@ Name your API key: Give your API key a name that is easy to remember and helps y
 
 Copy your API key: Once you have created your API key, copy it to your clipboard or save it in a secure location.
 
+
 ```
+
+Once the Env File has been updated follow Below commands to start the Streamlit and Fast Api to run the Application
+
+
+
+Command to run FastAPI
+
+
+```
+uvicorn main:app --reload
+
+```
+
+Command to run Streamlit
+
+```
+streamlit run app.py
+
+```
+
 
 
 
