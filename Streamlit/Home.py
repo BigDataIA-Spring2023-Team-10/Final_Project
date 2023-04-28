@@ -7,3 +7,4 @@ st.set_page_config(
 st.title("Big Data Systems and Intelligence Analytics DAMG 7245")
 st.header("Final Project")
 
+st.sidebar.success("Select a page above.")
