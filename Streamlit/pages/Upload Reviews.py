@@ -38,10 +38,8 @@ def uploadReviewsPage():
                     res = requests.get(URL + '/get_restaurant_id', headers=headers)
                     if res.status_code == 200:
                          restaurant_id = res.json()
-                    
-                    
                     # Upload the temporary file to Cloud Storage
-                    blob = bucket.blob(f"raw_reviews/{uploaded_file.name}-id-{restaurant_id}")
+                    blob = bucket.blob(f"raw_reviews/{str(uploaded_file.name).split('.')[0]}-id-{restaurant_id}.csv")
                     blob.upload_from_filename(tmp_file.name)
                     
                 # Delete the temporary file
