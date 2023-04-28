@@ -60,6 +60,11 @@ The source of data for this project we used is Yelp's API (Application Programmi
 Project Architecture Diagram and technologies used
 
 
+
+
+![84106459-fecb-454b-b581-00d55bc65bc5](https://user-images.githubusercontent.com/114544202/235215628-5d4b8169-da9f-4379-aec2-bdcf90d97a3f.png)
+
+
 Project Requirements and Technology dependencies
 
 ### Requirements and dependencies
@@ -148,6 +153,22 @@ zipp==3.15.0
 ```
 
 #Accessing BAckened Code: 
+
+
+
+
+
+### Team Member
+
+| NUID | Team Member       |
+|:-----:|---------------|
+| 002766036       | Anuj Kumar |
+| 002794258      |  Hitesh  Pant            |
+| 002773080      |  Kunal Bhoyar              |
+| 002772221      |  Snehashis Lenka              |
+
+
+WE ATTEST THAT WE HAVEN'T USED ANY OTHER STUDENT'S WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK.
 
 
 
