@@ -17,9 +17,15 @@
 [Access the codelabs document here]() 🚀
 
 
+
+
+
 # Application Link
 
 [Access the Application link here]() 🚀
+
+
+[FastApi Documentation](http://bigdata7245-finalproject.ue.r.appspot.com/docs) 🚀
 
 
 # Overview 📝
@@ -141,8 +147,7 @@ zipp==3.15.0
 └─ requirements.txt  <-- requirements.txt
 ```
 
-
-#How To use access the BAckend Code
+#Accessing BAckened Code: 
 
 
 
