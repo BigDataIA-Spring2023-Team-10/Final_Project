@@ -30,7 +30,7 @@
 
 # Vidoe Link
 
-[Video Link] (https://drive.google.com/file/d/1StfPrUxc7K9zh2GHFB28IJRHHt5zxwGI/view?usp=sharing) 🚀
+[Video Link](https://drive.google.com/file/d/1StfPrUxc7K9zh2GHFB28IJRHHt5zxwGI/view?usp=sharing) 🚀
 
 # Overview 📝
 
