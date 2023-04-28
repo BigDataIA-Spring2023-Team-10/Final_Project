@@ -17,9 +17,15 @@
 [Access the codelabs document here]() 🚀
 
 
+
+
+
 # Application Link
 
 [Access the Application link here]() 🚀
+
+
+[FastApi Documentation](http://bigdata7245-finalproject.ue.r.appspot.com/docs) 🚀
 
 
 # Overview 📝
@@ -52,6 +58,11 @@ The source of data for this project we used is Yelp's API (Application Programmi
 # Project overall Architecture
 
 Project Architecture Diagram and technologies used
+
+
+
+
+![84106459-fecb-454b-b581-00d55bc65bc5](https://user-images.githubusercontent.com/114544202/235215628-5d4b8169-da9f-4379-aec2-bdcf90d97a3f.png)
 
 
 Project Requirements and Technology dependencies
@@ -141,8 +152,23 @@ zipp==3.15.0
 └─ requirements.txt  <-- requirements.txt
 ```
 
+#Accessing BAckened Code: 
 
-#How To use access the BAckend Code
+
+
+
+
+### Team Member
+
+| NUID | Team Member       |
+|:-----:|---------------|
+| 002766036       | Anuj Kumar |
+| 002794258      |  Hitesh  Pant            |
+| 002773080      |  Kunal Bhoyar              |
+| 002772221      |  Snehashis Lenka              |
+
+
+WE ATTEST THAT WE HAVEN'T USED ANY OTHER STUDENT'S WORK IN OUR ASSIGNMENT AND ABIDE BY THE POLICIES LISTED IN THE STUDENT HANDBOOK.
 
 
 
