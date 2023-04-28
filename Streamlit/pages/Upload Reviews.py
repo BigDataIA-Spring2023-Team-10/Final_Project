@@ -9,6 +9,9 @@ import requests
 # Define the API endpoint URL
 URL = 'http://bigdata7245-finalproject.ue.r.appspot.com'
 
+if "login_success" not in st.session_state:
+    st.session_state['login_success'] = False
+
 def uploadReviewsPage():
     with st.form("Upload_form", clear_on_submit=True):
 
